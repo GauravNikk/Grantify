@@ -85,8 +85,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-//    implementation project(":Grantify")
-    implementation 'com.github.GauravNikk:Grantify:1.0.1'
+    implementation project(":Grantify")
+//    implementation 'com.github.GauravNikk:Grantify:1.0.1'
     //Multidex dependency
     implementation 'androidx.multidex:multidex:2.0.0'
 

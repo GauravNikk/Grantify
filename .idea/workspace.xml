@@ -1,11 +1,419 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.TestApplicationPermission</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8536e71-fc1e-4258-add8-bb4460ce7d2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Grantify/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grantify/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/1775201e2cf29a5b0b2136aca362d988/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/1775201e2cf29a5b0b2136aca362d988/transformed/debug/gauravnikk/grantify/BuildConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/1775201e2cf29a5b0b2136aca362d988/transformed/debug/gauravnikk/grantify/Grantify.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/1775201e2cf29a5b0b2136aca362d988/transformed/debug/gauravnikk/grantify/GrantifyManager$PermissionResultCallback.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/1775201e2cf29a5b0b2136aca362d988/transformed/debug/gauravnikk/grantify/GrantifyManager.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/1775201e2cf29a5b0b2136aca362d988/transformed/debug/gauravnikk/grantify/UseClass.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/1775201e2cf29a5b0b2136aca362d988/transformed/desugar_graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/4a3f31dbe4d5538c8eb8cfb17a6faf2f/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/74b84d4c4bdb3a98756c45d511d54d5d/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/74b84d4c4bdb3a98756c45d511d54d5d/transformed/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/f463fea49804263c162fce7c0f24223d/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/.transforms/f463fea49804263c162fce7c0f24223d/transformed/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debugAndroidTest/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debugAndroidTest/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-anydpi-v24_ic_launcher_foreground.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-anydpi-v24_ic_launcher_foreground.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_launcher_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_launcher_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-ldpi-v4_ic_launcher_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-ldpi-v4_ic_launcher_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_launcher_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_launcher_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_launcher_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_launcher_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_launcher_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_launcher_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-xxxhdpi-v4_ic_launcher_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable-xxxhdpi-v4_ic_launcher_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable_ic_launcher_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/drawable_ic_launcher_background.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher_round.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher_round.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/desugar_graph/debugAndroidTest/out/currentProject/jar_e5eb0eaa7bc85d313f213cb8297257cb4d8576c41c680f34a9d829f2ecbe1acd_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/desugar_graph/debugAndroidTest/out/currentProject/jar_e5eb0eaa7bc85d313f213cb8297257cb4d8576c41c680f34a9d829f2ecbe1acd_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/desugar_graph/debugAndroidTest/out/currentProject/jar_e5eb0eaa7bc85d313f213cb8297257cb4d8576c41c680f34a9d829f2ecbe1acd_bucket_2/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/desugar_graph/debugAndroidTest/out/currentProject/jar_e5eb0eaa7bc85d313f213cb8297257cb4d8576c41c680f34a9d829f2ecbe1acd_bucket_3/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/desugar_graph/debugAndroidTest/out/currentProject/jar_e5eb0eaa7bc85d313f213cb8297257cb4d8576c41c680f34a9d829f2ecbe1acd_bucket_4/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/desugar_graph/debugAndroidTest/out/currentProject/jar_e5eb0eaa7bc85d313f213cb8297257cb4d8576c41c680f34a9d829f2ecbe1acd_bucket_5/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeLibDexDebugAndroidTest/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeLibDexDebugAndroidTest/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/14/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/14/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/3/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/dex_archive_input_jar_hashes/debugAndroidTest/out" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/dex_archive_input_jar_hashes/debugAndroidTest/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/0ZK1vlRH9gs4BBqn9YVShZpyjS0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/1bPvpYlWMwbfxyzUijP1WHQ8vyw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/306VhRdTOpV5uZ302Az9Ber83rE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/4E5GwPW7ZvWCIm0iD2T0SeOlKnc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/4L2HRKCE9CGRuRJKkQEKAD1S+oU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/5DzWEpp7zH_VbLIIACRdGLWuqV8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/9_HeXu+Zrk8GtfJAAfpcR0sTXTI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/DnwgVxN8BffQoPdM_ccF390nfbM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/EMfeBXRHt1GDWeeaTT5m5OaFTRA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/G8g4dUgjrgv_DByJ9wBIy_NQe9o=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/KNKB4hUrePdkqjjv+JyApAuAnPU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/KVKM8w6O3bS8Z1ho8SkncCxH2_k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/KlAoky5hksQzTBbelN50GH75W_M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/LDc21+RU0Mo7i_09wSJLICP8xro=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/NkGR0D5JjP33NaL3+kwL0i_HYLs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/Ok4KFrvqNnO0ISI2vkd9thf8CEk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/P1_CBH0DRAhzqlBGPsFbc643rFc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/QUjZItTobMDVmFAfk4LcnsI1cbM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/RUzwJxfJMdve+85hxU_bOMd_HWk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/RZDsjJmNwORtIjt6cyaKGocvXT8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/Rgd6g53tZ0aD5f6EV_fHzGySc3s=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/Tu8KGZtCgBbT+mQrKEk0ysupl0A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/U4durcIgtCog+CPC7X72pSwoGbE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/UQfrJCwGrOTpz+FX+lZ71pgr8hQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/UmS9yxlDexIJHf+FX7QVbg6C0hM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/VKZgJslgJ28wLDTcs6_8scRnTeg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/WQtjNONgLeV+UsyatYGwLVye5lU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/Wdcc+fdkI60SmmCXTyoA2aEMWdw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/Xv_HDxoELizeX9aMBtBTep0oauY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/ZNuu5MfOs9INwFuNpvkyA6fP+JY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/ahdcutH5S4s7iltoe9T7SAnfG70=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/cFkhmhb9EBG7ZzsFl7EfaFVkhXM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/f7ohVJ+1vfcEu89PrSHH3ffwcB0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/g41lCKLcd86ZEfGINuV1KZw2hRo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/gfIOHtpcITJr7ONWZciiAd7y6Z8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/n6OSirW7SGX5XfXOe4_OSvKEIGE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/n6PL+4jXN5NRE4iXx402yR0oV8k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/nUzdFnLbDeXlyaesrCSKzzl7Jo0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/o9_P4fV9LFk5h0GPM6l_XPP0HaM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/oGgaZ5KcR6Qx++29OSLvxAXi5kk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/ogBeiX90mQpBQwGPHmwwU1NIV6M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/qqEmv_crupu_l7mZnz1zkHvvdxA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/qqH9_H5_21t4iTGVCbhzd25VZS8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/rA_HbPHSZcLJkTjEP4Bc9k7W2_Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/suQmOMjMH_F0vMIVXGgxkSZ1dXc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/u9Ex8RVS7jU6F94CVy8Ct_2qwaY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/v2UAEokrCm9BduzjBTmyKjS0IkY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/vn2HLOpnSQrQAh9GVoE7pQRNtvE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/w1G8i_upuajM2BfbJsARVzZIA+I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/w40gitTwVHqI4vSTLxU_Hh9HeIY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/xjTfhp1F_2XFTQNs0RGvlJ5gu2E=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/zC_aqMp6ekwF7FVNjNyZxX+CqBc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/zgv7zQfREQKdLsFo94zqU0psA70=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugAndroidTestJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugAndroidTestJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/Grantify.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/Grantify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/GrantifyManager$PermissionResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/GrantifyManager$PermissionResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/GrantifyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/GrantifyManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/UseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/UseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debugAndroidTest/classes/gauravnikk/grantify/ExampleInstrumentedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debugAndroidTest/classes/gauravnikk/grantify/ExampleInstrumentedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debugAndroidTest/classes/gauravnikk/grantify/test/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debugAndroidTest/classes/gauravnikk/grantify/test/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_java_res/debugAndroidTest/feature-Grantify.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_java_res/debugAndroidTest/feature-Grantify.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/debugAndroidTest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/debugAndroidTest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-as.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-az.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-bn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-bs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-en-rXC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-eu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-gl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-gu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-h720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-h720dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-hy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-is.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ka.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-kk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-km.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-kn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ldltr-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ldltr-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-lo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-mk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-mn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-mr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-night-v8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-or.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-port.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-si.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-te.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-uz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v18.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v22.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v25.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v28.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-v28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-watch-v20.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-watch-v20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-watch-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-watch-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/gauravnikk/grantify/ExampleInstrumentedTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/gauravnikk/grantify/ExampleInstrumentedTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/gauravnikk/grantify/test/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/gauravnikk/grantify/test/BuildConfig.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_dir/debug/gauravnikk/grantify/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_dir/debug/gauravnikk/grantify/Grantify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_dir/debug/gauravnikk/grantify/GrantifyManager$PermissionResultCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_dir/debug/gauravnikk/grantify/GrantifyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_dir/debug/gauravnikk/grantify/UseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/source_set_path_map/debugAndroidTest/file-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/source_set_path_map/debugAndroidTest/file-map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/outputs/aar/Grantify.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/outputs/aar/Grantify.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/outputs/apk/androidTest/debug/Grantify-debug-androidTest.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/outputs/apk/androidTest/debug/Grantify-debug-androidTest.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugAndroidTestJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugAndroidTestJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=95INTS4POZX4NJFI)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2lgmWHWx6cgnV1lBlVy8BAJkbbP" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/flutter/TestApplicationPermission/app",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flutter\TestApplicationPermission\app" />
+      <recent name="E:\flutter\TestApplicationPermission" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="TestApplicationPermission.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8536e71-fc1e-4258-add8-bb4460ce7d2c" name="Changes" comment="" />
+      <created>1725610123458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725610123458</updated>
+    </task>
+    <servers />
   </component>
 </project>
