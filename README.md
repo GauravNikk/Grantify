@@ -107,7 +107,7 @@ public class MyApplication extends Application {
 	super.onCreate();
     Grantify.initialize(this); 
   }
-}
+
 public String[] getAllPermissions() {  
     final String[] LIST_PERMISSIONS = new String[]{  
             "android.permission.INTERNET",  
@@ -118,6 +118,8 @@ public String[] getAllPermissions() {
   
     return LIST_PERMISSIONS;  
 }
+}
+
 ```
 
 **Use the this getAllPermissions()  in activity to request permissions in your activity:**
