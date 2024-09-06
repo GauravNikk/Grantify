@@ -19,6 +19,7 @@
     <list default="true" id="b8536e71-fc1e-4258-add8-bb4460ce7d2c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Grantify/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Grantify/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -27,6 +28,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/.idea/workspace.xml" afterDir="false" />
@@ -142,6 +145,7 @@
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAndroidTest/tmp/debugAndroidTest/zip-cache/javaResources0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/javac/debug/classes/gauravnikk/grantify/BuildConfig.class" afterDir="false" />
@@ -262,6 +266,8 @@
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zh-rTW.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values-zu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/merged_res_blame_folder/debugAndroidTest/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/packaged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/packaged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/processed_res/debugAndroidTest/out/resources-debugAndroidTest.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/processed_res/debugAndroidTest/out/resources-debugAndroidTest.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/project_dex_archive/debugAndroidTest/out/a50e66d3ab1f68312916860f70eca3e73d048c59c4e454f62859573f33e6b8f2_2.jar" beforeDir="false" />
@@ -278,12 +284,13 @@
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/source_set_path_map/debugAndroidTest/file-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/source_set_path_map/debugAndroidTest/file-map.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grantify/build/outputs/aar/Grantify.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/outputs/aar/Grantify.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grantify/build/outputs/aar/Grantify.aar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/outputs/apk/androidTest/debug/Grantify-debug-androidTest.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/outputs/apk/androidTest/debug/Grantify-debug-androidTest.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugAndroidTestJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugAndroidTestJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,9 +310,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2lgmWHWx6cgnV1lBlVy8BAJkbbP" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
@@ -314,6 +321,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.app.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -324,12 +332,15 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/flutter/TestApplicationPermission/app",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Variables",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\flutter\TestApplicationPermission\app" />
