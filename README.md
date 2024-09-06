@@ -13,7 +13,7 @@ Grantify is an Android library designed to simplify the process of requesting an
 
 ## Repository Link
 
-You can find the source code and additional information on the [Grantify GitHub repository](https://github.com/yourusername/grantify).
+You can find the source code and additional information on the [Grantify GitHub repository]([https://github.com/yourusername/grantify](https://github.com/GauravNikk/Grantify)).
 
 ## How to Use
 
