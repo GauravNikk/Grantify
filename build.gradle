@@ -3,10 +3,9 @@
 buildscript {
     repositories {
         google()
-        mavenCentral()  // Replace jcenter with mavenCentral
+        mavenCentral()  // Use mavenCentral instead of jcenter
         gradlePluginPortal()
-        publishToMavenLocal()
-        mavenLocal()
+        mavenLocal()  // Correctly reference mavenLocal for local dependencies
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.1'
@@ -17,6 +16,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()  // Use mavenCentral instead of jcenter
+        gradlePluginPortal()
+        mavenLocal()  // Correctly reference mavenLocal for local dependencies
         maven { url "https://maven.google.com" }  // Corrected URL
         maven { url "https://jitpack.io" }  // For JitPack dependencies
     }
@@ -41,5 +42,5 @@ ext {
     isSnapshot = false
 
     // Dependencies
-    supportLibraryVersion = '27.1.1'
+//    supportLibraryVersion = '27.1.1'
 }

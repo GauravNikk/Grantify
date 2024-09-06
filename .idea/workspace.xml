@@ -19,6 +19,7 @@
     <list default="true" id="b8536e71-fc1e-4258-add8-bb4460ce7d2c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Grantify/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Grantify/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Grantify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Grantify/.idea/workspace.xml" afterDir="false" />
@@ -313,7 +314,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
