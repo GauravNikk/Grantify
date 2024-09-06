@@ -5,7 +5,7 @@ buildscript {
         google()
         mavenCentral()  // Replace jcenter with mavenCentral
         gradlePluginPortal()
-//        publishToMavenLocal()
+        publishToMavenLocal()
         mavenLocal()
     }
     dependencies {
