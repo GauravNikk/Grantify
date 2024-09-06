@@ -23,7 +23,7 @@ You can find the source code and additional information on the [Grantify GitHub 
 Include the following dependency in your `build.gradle` file:
 
 ```gradle
-implementation 'com.example:grantify:1.0.0'
+implementation 'com.github.GauravNikk:Grantify:v1.0.251'
 ```
 
 [![](https://jitpack.io/v/GauravNikk/Grantify.svg)](https://jitpack.io/#GauravNikk/Grantify)
