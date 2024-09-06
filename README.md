@@ -69,3 +69,18 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+
+## Explanation
+
+-   **Package Declaration**: Ensure the package name matches your app's package structure.
+-   **Imports**: Import necessary classes, including those from `Grantify`.
+-   **Activity Definition**: Extend `AppCompatActivity` and override the `onCreate` method.
+-   **Request Permissions**: Use `GrantifyManager.getInstance().requestPermissions()` to request permissions. Provide the current activity, the list of permissions from `Grantify.getAllPermissions()`, and a callback to handle the result.
+-   **Handle Permissions**: In the callback, handle cases where permissions are granted or denied.
+-   **Perform Action**: Define a method (`performAction()`) that will be executed if permissions are granted.
+
+### Note
+
+-   Make sure to replace `com.example.grantify` with the actual package name of the `Grantify` library in your project.
+-   Ensure `activity_main.xml` exists in the `res/layout` directory and contains the layout you want for the `MainActivity`.
+-   Feel free to adjust the `performAction()` method and other parts of the code according to your specific use case and requirements.
