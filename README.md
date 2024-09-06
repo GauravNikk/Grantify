@@ -26,6 +26,9 @@ Include the following dependency in your `build.gradle` file:
 implementation 'com.example:grantify:1.0.0'
 ```
 
+[![](https://jitpack.io/v/GauravNikk/Grantify.svg)](https://jitpack.io/#GauravNikk/Grantify)
+
+
 # Step 2: Initialize and Request Permissions
 
 **Use the Grantify library to request permissions in your activity:**
