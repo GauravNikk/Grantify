@@ -40,13 +40,38 @@ import com.example.grantify.GrantifyManager;
 
 public class MainActivity extends AppCompatActivity {
 
+final String[] LIST_PERMISSIONS = new String[]{
+                "android.permission.INTERNET",
+                "android.permission.READ_MEDIA_IMAGES",
+                "android.permission.READ_MEDIA_VIDEO",
+                "android.permission.READ_PHONE_STATE",
+                "android.permission.WRITE_MEDIA_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_WIFI_STATE",
+                "android.permission.ACCESS_NETWORK_STATE",
+                "android.permission.ACCESS_FINE_LOCATION",
+                "android.permission.ACCESS_COARSE_LOCATION",
+                "android.permission.CALL_PHONE",
+                "android.permission.POST_NOTIFICATIONS",
+                "android.permission.SYSTEM_ALERT_WINDOW",
+                "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.FOREGROUND_SERVICE",
+                "android.permission.FOREGROUND_SERVICE_LOCATION",
+                "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+                "android.permission.CAMERA",
+                "android.permission.READ_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_MEDIA_LOCATION",
+                "android.permission.RECEIVE_BOOT_COMPLETED",
+                "com.google.android.providers.gsf.permission.READ_GSERVICES",
+                "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+        };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         // Request permissions using Grantify
-        GrantifyManager.getInstance().requestPermissions(this, Grantify.getAllPermissions(), new GrantifyManager.PermissionResultCallback() {
+        GrantifyManager.getInstance().requestPermissions(this, LIST_PERMISSIONS, new GrantifyManager.PermissionResultCallback() {
             @Override
             public void onPermissionsGranted() {
                 // Permissions granted, proceed with your method
