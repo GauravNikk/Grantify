@@ -1,3 +1,4 @@
+
 # Grantify
 
 ## Description
@@ -13,7 +14,7 @@ Grantify is an Android library designed to simplify the process of requesting an
 
 ## Repository Link
 
-You can find the source code and additional information on the [Grantify GitHub repository]([https://github.com/yourusername/grantify](https://github.com/GauravNikk/Grantify)).
+You can find the source code and additional information on the [Grantify GitHub repository]([https://github.com/GauravNikk/grantify]).
 
 ## How to Use
 
@@ -51,18 +52,7 @@ final String[] LIST_PERMISSIONS = new String[]{
                 "android.permission.ACCESS_FINE_LOCATION",
                 "android.permission.ACCESS_COARSE_LOCATION",
                 "android.permission.CALL_PHONE",
-                "android.permission.POST_NOTIFICATIONS",
-                "android.permission.SYSTEM_ALERT_WINDOW",
-                "android.permission.WRITE_EXTERNAL_STORAGE",
-                "android.permission.FOREGROUND_SERVICE",
-                "android.permission.FOREGROUND_SERVICE_LOCATION",
-                "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
-                "android.permission.CAMERA",
-                "android.permission.READ_EXTERNAL_STORAGE",
-                "android.permission.ACCESS_MEDIA_LOCATION",
-                "android.permission.RECEIVE_BOOT_COMPLETED",
-                "com.google.android.providers.gsf.permission.READ_GSERVICES",
-                "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
         };
 
     @Override
@@ -103,6 +93,54 @@ final String[] LIST_PERMISSIONS = new String[]{
 -   **Request Permissions**: Use `GrantifyManager.getInstance().requestPermissions()` to request permissions. Provide the current activity, the list of permissions from `Grantify.getAllPermissions()`, and a callback to handle the result.
 -   **Handle Permissions**: In the callback, handle cases where permissions are granted or denied.
 -   **Perform Action**: Define a method (`performAction()`) that will be executed if permissions are granted.
+
+
+## Another Use Case : Initialize All in  MyApplication class
+
+```MyApplication.java
+package com.example.grantifyexample; 
+import android.app.Application;
+import com.example.grantify.Grantify;
+
+public class MyApplication extends Application { 
+	@Override public void onCreate() { 
+	super.onCreate();
+    Grantify.initialize(this); 
+  }
+}
+public String[] getAllPermissions() {  
+    final String[] LIST_PERMISSIONS = new String[]{  
+            "android.permission.INTERNET",  
+            "android.permission.READ_MEDIA_IMAGES",  
+            "android.permission.READ_MEDIA_VIDEO",  
+            "android.permission.READ_PHONE_STATE"
+  };  
+  
+    return LIST_PERMISSIONS;  
+}
+```
+
+**Use the this getAllPermissions()  in activity to request permissions in your activity:**
+
+```
+GrantifyManager.getInstance().requestPermissions(this, MyApplication.getInstance().getAllPermissions(), new GrantifyManager.PermissionResultCallback() {
+            @Override
+            public void onPermissionsGranted() {
+                // Permissions granted, proceed with your method
+                Toast.makeText(MainActivity.this, "Permissions granted!", Toast.LENGTH_SHORT).show();
+                // Your method or functionality that requires permissions
+                performAction();
+            }
+
+            @Override
+            public void onPermissionsDenied() {
+                // Permissions denied, handle accordingly
+                Toast.makeText(MainActivity.this, "Permissions are required to proceed!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+```
+
 
 ### Note
 
