@@ -5,6 +5,7 @@ buildscript {
         google()
         mavenCentral()  // Use mavenCentral instead of jcenter
         gradlePluginPortal()
+//        publishToMavenLocal()
         mavenLocal()  // Correctly reference mavenLocal for local dependencies
     }
     dependencies {
@@ -17,7 +18,8 @@ allprojects {
         google()
         mavenCentral()  // Use mavenCentral instead of jcenter
         gradlePluginPortal()
-        mavenLocal()  // Correctly reference mavenLocal for local dependencies
+        mavenLocal()
+//        publishToMavenLocal()// Correctly reference mavenLocal for local dependencies
         maven { url "https://maven.google.com" }  // Corrected URL
         maven { url "https://jitpack.io" }  // For JitPack dependencies
     }
