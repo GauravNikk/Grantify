@@ -1,0 +1,134 @@
+
+
+//buildscript {
+//    repositories {
+//        maven { url 'https://maven.fabric.io/public' }
+//    }
+//
+//    dependencies {
+//        // These docs use an open ended version so that our plugin
+//        // can be updated quickly in response to Android tooling updates
+//
+//        // We recommend changing it to the latest version from our changelog:
+//        // https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
+//        classpath 'io.fabric.tools:gradle:1.+'
+//    }
+//}
+apply plugin: 'com.android.application'
+//apply plugin: 'io.fabric'
+
+//repositories {
+//    maven { url 'https://maven.fabric.io/public' }
+//}
+android {
+//    def fabricAPIKey = project.findProperty("FABRIC_API_KEY")
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "gaurav.test.applicationpermission"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode generateVersionCode()
+        versionName generateVersionName()
+        multiDexEnabled true
+
+    }
+    // Configure only for each module that uses Java 8
+    // language features (either in its source code or
+    // through dependencies).
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            versionNameSuffix ".debug"
+            resValue "string", "app_version", "${defaultConfig.versionName}${versionNameSuffix}"
+            resValue "string", "app_version_code", "${defaultConfig.versionCode}${versionNameSuffix}"
+        }
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            def appName = "Test _"
+            def date = new Date()
+            def formattedDate = date.format('dd-MMM-yyyy')
+            outputFileName = appName + "_" + formattedDate + "_" + "-${variant.versionName}.apk"
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+    lint {
+        checkReleaseBuilds false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation project(":Grantify")
+    implementation 'com.github.GauravNikk:Grantify:1.0.1'
+    //Multidex dependency
+    implementation 'androidx.multidex:multidex:2.0.0'
+
+    //Support Dependency
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    //noinspection GradleCompatible
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}
+
+/**
+ * method to generate version code
+ * @return version code
+ */
+private Integer generateVersionCode() {
+    return rootProject.ext.minSdkVersion * 10000000 + rootProject.ext.versionMajor * 10000 + rootProject.ext.versionMinor * 100 + rootProject.ext.versionPatch
+}
+
+/**
+ * method to generate version name
+ * @return version name
+ */
+private String generateVersionName() {
+    String versionName = "${rootProject.ext.versionMajor}.${rootProject.ext.versionMinor}.${rootProject.ext.versionPatch}"
+    if (rootProject.ext.versionClassifier == null) {
+        if (rootProject.ext.isSnapshot) {
+            rootProject.ext.versionClassifier = "SNAPSHOT"
+        }
+    }
+
+    if (rootProject.ext.versionClassifier != null) {
+        versionName += "-" + rootProject.ext.versionClassifier
+    }
+    return versionName;
+}
+/**
+ * method to generate directions api key
+ * @return original directions api
+ */
+
+
